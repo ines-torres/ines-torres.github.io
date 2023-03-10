@@ -52,11 +52,12 @@
 										<h3 class="major">Curriculum Vitae</h3>
 									</header>
 									<body>
-										<!-- -->
 										<style> 
 											.two-columns {display: flex; height: "100%"; flex-direction: row; justify-content: space-evenly;} 
 											.column1 {width: "70%"; height:fit-content; float:"left";text-align: right;}
-											.column2 {text-align: center;}
+											.column2 {}
+											@media (max-width: 470px) {.two-columns {display: block;} .column1, .column2 {width: 100%;}}
+										
 										</style>
 										<div class="two-columns">
 											<div class="column1">
@@ -83,7 +84,7 @@
 												</div>
 											</div></h6>
 											<div class="column2">
-												<img src="images/cv.png"  height="170" style="display: block;" title="this is a picture in the replica of the ISS Colombus module, in ESTEC!">
+												<img src="images/cv.png"  height="170" style="display: center;" title="this is a picture in the replica of the ISS Colombus module, in ESTEC!">
 												
 											</div>
 										</div>
